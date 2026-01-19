@@ -4,7 +4,7 @@ from src.configuracoes import *
 class Jogo:
     def __init__(self):
         pygame.init()
-        self.tela = pygame.display.set_mode((LARGURA_TELA, ALTURA_TELA)) # type: ignore
+        self.tela = pygame.display.set_mode((LARGURA_TELA, ALTURA_TELA))
         self.relogio = pygame.time.Clock()
         pygame.display.set_caption("Super Renato Adventures")
 
